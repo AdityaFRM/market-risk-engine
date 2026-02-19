@@ -14,3 +14,15 @@ def simulate_normal_returns(mean, stdev, sims, seed = None):
     returns = mean + stdev*z
     
     return returns
+
+
+
+def simulate_multivariate_returns(mu, cov, sims, seed = None):
+    """
+    Simulate multivariate returns
+    VaRp = 
+    """
+    if seed is not None:
+        np.random.seed(seed)
+        
+    return np.random.multivariate_normal(mu, cov, sims)
