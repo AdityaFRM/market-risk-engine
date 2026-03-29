@@ -21,3 +21,6 @@ See `notebooks/risk_engine_demo.ipynb` for full workflow demonstration.
 
 ## Use Case
 Designed to replicate real-world risk analytics and model validation workflows used in investment banks.
+
+## Demonstration
+See notebooks/market_risk_engine_demo.ipynb for a full implementation of VaR, Expected Shortfall, backtesting, and stress testing.
